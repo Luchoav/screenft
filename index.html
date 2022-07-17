@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scree uouoip</title>
+    <title>ScreeNFT</title>
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!--ICOON HEAD-->
@@ -16,10 +16,10 @@
     <!--CUSTOME CSS-->
     <link rel="stylesheet" href="styles.css">
     <!--Animacion-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
@@ -29,34 +29,36 @@
     </div>
 
 
+    <nav class="navbar navbar-expand menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/img/icono.jpg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="letrascolor" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="letrascolor" href="#">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="letrascolor" href="#">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " id="letrascolor" href="#">Servicios</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
-        <nav class="nav-main">
-            <img src="img/screeNFT.png" alt="ScreeNFT LOGO" class="nav-brand">
-            <ul class="nav-menu show">
-                <li>
-                    <a href="#">Objetivo</a>
-                </li>
-                <li>
-                    <a href="#">Productos</a>
-                </li>
-                <li>
-                    <a href="#">Clientes</a>
-                </li>
-                <li>
-                    <a href="#">Quienes Somos</a>
-                </li>
-                <li>
-                    <a href="formulario/formulario-contacto.html" target="_blank">Contacto</a>
-                </li>
-            </ul>
-            <ul class="nav-menu-right">
-                <li>
-                    <a href="#">
-                        <i class="fas fa-search"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+
         <hr>
 
         <!-- SHOWCASE-->
@@ -69,48 +71,78 @@
         </header>
 
         <!-- NEW CARDS-->
-        <div class="news-cards">
-            <div>
-                <img src="img/1 que es un nft.png" alt="News 1">
-                <h3>¿Que Es Un NFT?</h3>
-                <p>Un NFT, Non-Fungible Token, es un activo digital basado en tecnología blckchain que se puede usar
-                    para representar la propiedad digital de algo único y escaso.</p>
-                <a href="/Secciones HTML/QueEsUnNFT.html" target="_blank">Leer Más <i
-                        class="fas fa-angle-double-right"></i></a>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="/img/1.png" class="card-img-top" alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">¿Qué es un NFT?</h5>
+                        <p class="card-text">Un NFT, Non-Fungible Token, es un activo digital basado en tecnología
+                            blckchain
+                            que se puede usar
+                            para representar la propiedad digital de algo único y escaso.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="img/2 tipos de nft.png" alt="News 2">
-                <h3>Tipos De NFT</h3>
-                <p>Cualquier bien virtual puede vincularse o protegerse con un token. Por ejemplo, los objetos de valor
-                    de los juegos de ordenador están provistos de un NFT que solo puede ser utilizado por su
-                    propietario. </p>
-                <a href="/Secciones HTML/TiposDeNNFT.html" target="_blank">Leer Más <i
-                        class="fas fa-angle-double-right"></i></a>
+
+            <div class="col">
+                <div class="card">
+                    <img src="/img/2.png" class="card-img-top" alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Tipos de NFT´s</h5>
+                        <p class="card-text">Cualquier bien virtual puede vincularse o protegerse con un token. Por
+                            ejemplo,
+                            los objetos de valor
+                            de los juegos de ordenador están provistos de un NFT que solo puede ser utilizado por su
+                            propietario.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="img/3 Como funciona un nft.png" alt="News 3">
-                <h3>¿Como Funcion Un NFT?</h3>
-                <p>Un token no fungible es un activo criptográfico que tiene la capacidad de ser unco e irrepetible. Las
-                    propiedades de este tipo de token s pueden almacenar y, de esta manera, se vuelve posible certificar
-                    tanto la originalidad del activo como su propiedad.</p>
-                <a href="/Secciones HTML/ComoFuncionUnNFT.html" target="_blank">Leer Más <i
-                        class="fas fa-angle-double-right"></i></a>
+            <div class="col">
+                <div class="card">
+                    <img src="/img/3.png" class="card-img-top" alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Cómo funciona un NFT</h5>
+                        <p class="card-text">
+                            Un token no fungible es un activo criptográfico que tiene la capacidad de ser unco e
+                            irrepetible. Las
+                            propiedades de este tipo de token s pueden almacenar y, de esta manera, se vuelve posible
+                            certificar
+                            tanto la originalidad del activo como su propiedad.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="img/4 como vender un nft.png" alt="News 4">
-                <h3>¿Como Vender Un NFT?</h3>
-                <p>La opción mas popular para vender tu arte en forma de NFT es utilizar la popular plataforna y
-                    marketplace Opensea.io.</p>
-                <a href="/Secciones HTML/ComoVenderUnNFT.html.html" target="_blank">Leer Más <i
-                        class="fas fa-angle-double-right"></i></a>
+            <div class="col">
+                <div class="card">
+                    <img src="/img/4.png" class="card-img-top" alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Como vender un NFT</h5>
+                        <p class="card-text">
+                            La opción mas popular para vender tu arte en forma de NFT es utilizar la popular plataforna
+                            y
+                            marketplace Opensea.io
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
+
+
 
         <!--BANNER ONE SECTIONS ONE BUTTOM CARDS -->
 
         <section class="cards-banner-one">
             <div class="content">
-                <h2 >Lorem, ipsum dolor HASDHJASDH.</h2>
+                <h2>Lorem, ipsum dolor HASDHJASDH.</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, deleniti vitae. Molestias
                     dignissimos quas praesentium minus error libero, laborum voluptatibus.</p>
                 <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
@@ -118,40 +150,65 @@
         </section>
 
         <!-- NEW CARDS 2-->
-        <div class="news-cards">
-            <div>
-                <img src="img/5 nft mas caro.png" alt="News 5">
-                <h3>NFT Mas Caro</h3>
-                <p>Lo ostenta "Everydays: The First 5.0000 Days", del artista digital Mike Winkelmann. Esta obra, de
-                    US$69,3 millones, es un collage que reune 5.000 de sus trabajos anteriores.</p>
-                <a href="Secciones HTML/NFTMasCaro.html" target="_blank">Leer Más <i
-                        class="fas fa-angle-double-right"></i></a>
+        <div class="row row-cols-1 row-cols-md-4 g-4" id="tarjeta">
+            <div class="card">
+                <img src="/img/5 nft mas caro.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">NFT Más Caro</h5>
+                    <p class="card-text">
+                        Lo ostenta "Everydays: The First 5.0000 Days", del artista digital Mike Winkelmann. Esta obra,
+                        de
+                        US$69,3 millones, es un collage que reune 5.000 de sus trabajos anteriores.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
             </div>
-            <div>
-                <img src="img/6 que es un airdrop.png" alt="News 6">
-                <h3>¿Que Es Un Airdrop?</h3>
-                <p>Un airdrop NFT es la distribución gratuita de un NFT a una billetera, o incluso a milles de
-                    billeteras a la vez.</p>
-                <a href="Secciones HTML/QueEsUnAirdrop.html" target="_blank">Leer Más <i
-                        class="fas fa-angle-double-right"></i></a>
+            <div class="card">
+                <img src="/img/6 que es un airdrop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">¿Que Es Un Airdrop?</h5>
+                    <p class="card-text">
+                        Un airdrop NFT es la distribución gratuita de un NFT a una billetera, o incluso a milles de
+                        billeteras a la vez.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
             </div>
-            <div>
-                <img src="img/7 Dónde puedo guardar mis NFTs.png" alt="News 7">
-                <h3>Dónde Puedo Guardar Un NFT</h3>
-                <p>Existen distintas billeteras donde puedes guardar tus NFTs, Las mas populares y seguras son:
-                    MetaMask, Coinbase, Trust Wallet y Ledger</p>
-                <a href="Secciones HTML/DóndePuedoGuardarUnNFT.html" target="_blank">Leer Más <i
-                        class="fas fa-angle-double-right"></i></a>
+            <div class="card">
+                <img src="/img/7 Dónde puedo guardar mis NFTs.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Dónde Puedo Guardar Un NFT</h5>
+                    <p class="card-text">
+                        Existen distintas billeteras donde puedes guardar tus NFTs, Las mas populares y seguras son:
+                        MetaMask, Coinbase, Trust Wallet y Ledger
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
             </div>
-            <div>
-                <img src="img/8  Qué es una Cold Wallet.png" alt="News 8">
-                <h3>¿Que Es Un Una Cold Wallet?</h3>
-                <p>Las cold wallets, son aquellas que utilizan claves generadas por una fuente que no esta conectada a
-                    la blockchain y por tanto, tampoco a internet.</p>
-                <a href="Secciones HTML/QueEsUnUnaColdWallet.html" target="_blank">Leer Más <i
-                        class="fas fa-angle-double-right"></i></a>
+            <div class="card">
+                <img src="/img/8  Qué es una Cold Wallet.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">¿Que Es Un Una Cold Wallet?</h5>
+                    <p class="card-text">
+                        Las cold wallets, son aquellas que utilizan claves generadas por una fuente que no esta
+                        conectada a
+                        la blockchain y por tanto, tampoco a internet.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
             </div>
         </div>
+
+
+
 
 
         <!-- BANNER TWO -->

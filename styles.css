@@ -1,3 +1,29 @@
+#logo{
+    width: 100px;
+}
+
+#tarjeta{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.card:hover{
+    transform: scale(1.05,1.06);
+}
+
+.menu{
+    background-color: #000;
+}
+
+#letrascolor{
+  color: #f2f2f2;
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(1, 144, 205);
+    color: #f0e9e9; }
+  
 * {
     box-sizing: border-box;
     margin: 0;
